@@ -1,0 +1,35 @@
+.right {
+    right: 0px;
+  }
+
+.nav_color{
+    background-color: #4aaaa5;
+}
+.margin{
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: auto;
+    text-align: center;
+}
+.navbar-bg {
+    font-size: 30px;
+    white-space: pre;
+    color: white;
+    background-color: #4aaaa5;
+    padding: 15px;
+}
+  h1{
+      color: #4aaaa5;
+  }
+  body{
+      background-color: lightgray;
+  }
+  .nb{
+      background-color: whitesmoke;
+  }
+  .border_imgs{
+      border: turquoise;
+  }
+  h2{
+    color: #4aaaa5;
+  }

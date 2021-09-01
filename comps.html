@@ -47,34 +47,45 @@
         </div>
     </nav> 
     <div class="container px-4">
-        <div>
+       <div>
             <p></p>
         </div>
         <div class="row gx-5">
-          <div class="col">
-           <div class="p-3 border bg-light"> 
-               <h1>Summary: Latitude vs. X</h1> 
-               <hr>    
-                <img src="Resources/assets/images/Fig1.png" width="300px">
-                <br>
-                <section>
-                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble dataset on over 500 cities.</p>
-                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>    
-                </section>
-           </div>
-          </div>
-          <div class="col">
-            <div class="p-3 border bg-light">
-                <p><h1>Visualizations</h1></p>
+            <div class="col-1">
+              <p></p>
+            </div>  
+            <div class="col-10">
+                <div class="p-3 border bg-light">
+                    <p><h1>Comparison: Latitude vs X</h1></p>
                 <hr>
-                <a href="max_temp.html"><img src="Resources/assets/images/Fig1.png" width="225px"></a>
-                <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" width="225x"></a>
-                <a href="clouds.html"><img src="Resources/assets/images/Fig2.png" width="225px"></a>
-                <a href="winds.html"><img src="Resources/assets/images/Fig4.png" width="225px"></a>
+                <p>Click any plot to get an in-depth analysis.</p>
+                <div class="row margin">
+                    <div class="col-md-6 col-sm-12">
+                        <h2>vs. Max Temperature</h2>
+                        <a href="max_temp.html"><img src="Resources/assets/images/Fig1.png" width="300px"></a>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <h2>vs. Humidity</h2>
+                        <a href="humidity.html"><img src="Resources/assets/images/Fig2.png" width="300x"></a>
+                    </div>
+                </div>
+                <br>
+                <div class="row margin">
+                    <div class="col-md-6 col-sm-12">
+                        <h2>vs. Cloudiness</h2>
+                        <a href="clouds.html"><img src="Resources/assets/images/Fig2.png" width="300px"></a>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <h2>vs. Wind Speed</h2>
+                        <a href="winds.html"><img src="Resources/assets/images/Fig4.png" width="300px"></a>
+                    </div>
+                </div>
+                <div class="col-1">
+                <p></p>
+                </div>  
             </div>
-          </div>
         </div>
-      </div>
+    </div>
     <!-- Carried over from bootstrap exercise -->   
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
